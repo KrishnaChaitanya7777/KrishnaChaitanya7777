@@ -3,22 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration Form</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Blog Home</title>
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
     <div class="container">
-        <h2>Registration Form</h2>
-        <form id="registrationForm" action="/register" method="POST">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
-            <button type="submit">Register</button>
-        </form>
+        <h1>Blog Posts</h1>
+        <div id="posts"></div>
+        <a href="/newpost">Write a new post</a>
     </div>
-    <script src="scripts.js"></script>
+    <script src="/js/scripts.js"></script>
 </body>
 </html>
