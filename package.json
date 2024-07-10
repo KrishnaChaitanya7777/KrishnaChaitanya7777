@@ -1,7 +1,7 @@
 {
-  "name": "registration-form",
+  "name": "blog-website",
   "version": "1.0.0",
-  "description": "A simple registration form using Node.js, Express, and MongoDB",
+  "description": "A simple blog website using Node.js, Express, and MongoDB",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
